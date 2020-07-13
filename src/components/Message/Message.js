@@ -22,7 +22,7 @@ const Message = ({ message, name }) => {
             : (
                 <div className=" my-1 d-flex justify-content-start shadow-md">
                     <div className={`${user==='admin'?"bg-secondary":"bg-success"} rounded-pill m-1 chat-message`}>
-                        <span className={` ${user==='admin'?"text-warning":"text-white"} text-capitalize mt-auto mb-0 ml-4 font-weight-bold`}>{user}</span>
+                        <span className={` ${user==='admin'?"text-warning":"text-white"} text-capitalize mt-auto mb-0 px-3 font-weight-bold`}>{user}</span>
                         <p className={`${user==='admin'?"text-white":"text-dark"} mb-1 px-4`}>{ReactEmoji.emojify(text)}</p>
                     </div>
                 </div>

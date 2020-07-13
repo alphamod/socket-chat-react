@@ -1,4 +1,6 @@
-.messages{
-    overflow:auto;
-    flex: auto;
+.messages {
+  overflow: auto;
+  flex: auto;
+  max-height: 90vh !important;
+  height: 80vh;
 }
